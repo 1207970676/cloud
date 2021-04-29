@@ -11,6 +11,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
 //下载图片
+//测试
 public class DownloadJpg {
     public static void main(String args[]) throws Exception{
         LinkedBlockingQueue <ImgInfo> queue = new LinkedBlockingQueue<ImgInfo>();
