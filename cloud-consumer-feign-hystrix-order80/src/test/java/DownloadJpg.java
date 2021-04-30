@@ -19,6 +19,7 @@ public class DownloadJpg {
         System.out.println("hot fix commit 1");
         System.out.println("master");
         System.out.println("提交一个");
+        System.out.println("pull test");
     }
 
     public static void download(LinkedBlockingQueue <ImgInfo> queue) throws Exception {
