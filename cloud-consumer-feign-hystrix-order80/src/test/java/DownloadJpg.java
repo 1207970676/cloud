@@ -16,6 +16,7 @@ public class DownloadJpg {
     public static void main(String args[]) throws Exception{
         LinkedBlockingQueue <ImgInfo> queue = new LinkedBlockingQueue<ImgInfo>();
         download(queue);
+        System.out.println("hot fix commit 1");
     }
 
     public static void download(LinkedBlockingQueue <ImgInfo> queue) throws Exception {
